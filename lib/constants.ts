@@ -219,3 +219,10 @@ export class AddPlaformErrors {
 }
 
 export const PLUGIN_BUILD_DATA_FILENAME = "plugin-data.json";
+
+export class PluginNativeDirNames {
+	public static iOS = "ios";
+	public static Android = "android";
+}
+
+export const PODFILE_NAME = "Podfile";
