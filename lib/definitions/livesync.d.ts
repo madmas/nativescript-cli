@@ -165,6 +165,8 @@ interface ILiveSyncInfo extends IProjectDir, IEnvOptions, IBundle, IRelease, IOp
 	 * If not provided, defaults to 10seconds.
 	 */
 	timeout: string;
+
+	syncToPreviewApp?: boolean;
 }
 
 interface ILatestAppPackageInstalledSettings extends IDictionary<IDictionary<boolean>> { /* empty */ }
