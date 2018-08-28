@@ -535,7 +535,7 @@ interface ILiveSyncCommandHelper {
 	 * @param {string} platform The platform to be validated.
 	 * @return {Promise<void>}
 	 */
-	validatePlatform(platform: string): Promise<IDictionary<IValidateOutput>>;
+	validatePlatform(platform: string): Promise<IDictionary<IValidatePlatformOutput>>;
 
 	/**
 	 * Executes livesync operation. Meant to be called from within a command.
